@@ -1,0 +1,715 @@
+.navbar {
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.people1 {
+    position: absolute;
+    left: 36%;
+    margin-top: -42%;
+    width: 25%;
+    height: auto;
+}
+
+h1, h2, h3 {
+    color: rgb(255, 255, 255);
+    font-display: swap;
+    font-family: 'Abril Fatface', serif;
+}
+
+h1 {
+    position: absolute;
+    left: 5vw;
+    top: 15vw;
+    font-size: 3.4vw;
+    font-weight: 300;
+}
+
+.round-button {
+    font-family: "Roboto";
+    padding: 1% 2%;
+    position: absolute;
+    border: none;
+    border-radius: 50px;
+    background-color: #b222ff; 
+    font-size: 2vw; 
+    left: 4vw;
+    cursor: pointer;
+    top: 29vw;
+    transition: background-color 0.3s ease;
+    color: white;
+    font-weight: bold; 
+    font-family: 'Roboto', sans-serif; 
+    text-align: center; 
+}
+
+.round-button:hover {
+    background-color: #9932cc; 
+}
+
+
+.speak {
+    font-family: 'Bebas Neue';
+}
+
+h2 {
+    position: absolute;
+    left: 65vw;
+    top: 16vw;
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+h3 {
+    position: absolute;
+    left: 65vw;
+    top: 22vw;
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    position: relative;
+}
+
+.navbar ul li a {
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.navbar ul li a:hover {
+    background-color: #b222ff;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #000000;
+    min-width: 160px;
+    z-index: 1000;
+}
+
+.dropdown-content a {
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #000000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.texturedBackground {
+  position: absolute;
+  margin-top: 7.8%;
+  width: 100%;
+  z-index: -1; 
+}
+
+
+h4 {
+  position: absolute;
+  left: 34vw;
+  top: 50vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 4.8vw;
+
+}
+
+h5 {
+    position: absolute;
+    left: 30vw;
+    top: 60.3vw;
+    font-family: 'Bebas Neue';
+    font-size: 1.8vw;
+    color: rgb(126, 40, 255);
+    font-weight: 300;
+  }
+  
+  h6{
+    position: absolute;
+    left: 25.3vw;
+    top: 63.7vw;
+    font-family: 'Bebas Neue';
+    font-size: 1.5vw;
+    font-weight: 100; 
+    color: rgba(0, 0, 0, 0.7);
+    text-align: left; 
+  }
+
+  #aboutUs a {
+    position: absolute;
+    left: 65.1vw;
+    top: 32vw;
+    font-family: 'Bebas Neue';
+    font-size: 1.5vw;
+    font-weight: 100; 
+     color: rgb(126, 40, 255);
+  }
+  #aboutUs a:hover {
+    text-decoration: underline;
+  }
+
+  #contentSU {
+    position: relative;
+  padding-bottom: 70%; /* Соотношение 16:9 */
+
+  overflow: hidden;
+  max-width: 100%;
+  margin-top: -8%;
+  
+  }
+  
+  .Aboutspeak {
+   margin-top: 40%;
+    margin-left: 50%;
+    transform: translateX(-50%); 
+    position: absolute;
+  }
+  
+  video {
+    width: 100%; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+
+  }
+  
+  .background2{
+    position: absolute;
+    top: 200vw;
+    width: 100%;
+
+  }
+
+
+  body {
+    background-color: rgb(248, 240, 254); /* Устанавливает однотонный цвет фона */
+    margin: 0; /* Убирает отступы по умолчанию */
+    height: 100vh; /* Высота страницы на весь экран */
+  }
+  .ellipse{
+    position: absolute;
+    right: 0%;
+    top: 39vw;
+    width: 22%;
+
+  }
+  .ellipse1{
+    position: absolute;
+    left: -13%;
+    top: 85vw;
+    width: 32%;
+
+  }
+  .star{
+    position: absolute;
+    right: 12%;
+    top: 51vw;
+    width: 6.5%;
+
+  }
+  .star1{
+    position: absolute;
+    right: 1%;
+    top: 57vw;
+    width: 13.3%;
+
+  }
+  .star2{
+    position: absolute;
+    left: 9%;
+    top: 95vw;
+    width: 3.2%;
+
+
+  }
+  .star3{
+    position: absolute;
+    left: 2%;
+    top: 93vw;
+    width: 5.2%;
+  }
+  .star4{
+    position: absolute;
+    left: 4%;
+    top: 100vw;
+    width: 8.5%;
+  }
+
+
+
+h11{
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  left: 25vw;
+  top: 218vw;
+  font-size: 3.5vw; 
+  color: rgb(0, 0, 0);
+
+}
+.zhivyaz{
+  position: absolute;
+ width: 25%;
+  left: 8vw;
+  top: 228vw;
+  font-size: 3.5vw;
+
+}
+
+.zhivyaz1{
+  position: absolute;
+  width: 25%;
+  left: 38vw;
+  top: 228vw;
+
+
+}
+.zhivyaz2{
+  position: absolute;
+  width: 25%;
+  left: 67vw;
+  top: 228vw;
+
+
+}
+.zhivyaz:hover {
+  filter: brightness(1.2) ; /* Увеличивает яркость изображения */
+  transform: scale(1.1); /* Увеличивает размер изображения */
+}
+
+.zhivyaz1:hover {
+  filter: brightness(1.2) ; /* Увеличивает яркость изображения */
+  transform: scale(1.1); /* Увеличивает размер изображения */
+}
+.zhivyaz2:hover {
+  filter: brightness(1.2) ; /* Увеличивает яркость изображения */
+  transform: scale(1.1); /* Увеличивает размер изображения */
+}
+
+.zhivyazcontent{
+  position: absolute;
+  width: 15%;
+   left: 13.5vw;
+   top: 236vw;
+
+}
+
+
+
+.support{
+  position: absolute;
+  width: 17%;
+  left: 42.6vw;
+  top: 235.5vw;
+
+
+}
+
+.speechSkill1{
+  position: absolute;
+  width: 14%;
+  left: 73vw;
+  top: 235vw;
+
+
+}
+
+h12{
+  position: absolute;
+  left: 11vw;
+  top: 251.5vw;
+  font-size: 2.5vw;
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+h13{
+  position: absolute;
+  left: 11vw;
+  top: 256vw;
+  font-size: 1vw;
+  color: rgb(0, 0, 0);
+
+}
+
+h14{
+  position: absolute;
+  left: 41vw;
+  top: 251vw;
+  font-size: 2.5vw;
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+
+h15{
+  position: absolute;
+  left: 41vw;
+  top: 258vw;
+  font-size: 1vw;
+  color: rgb(0, 0, 0);
+
+}
+
+h16{
+  position: absolute;
+  left: 70vw;
+  top: 251.1vw;
+  font-size: 2.6vw;
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+h17{
+  position: absolute;
+  left: 70vw;
+  top: 258vw;
+  font-size: 1vw;
+  color: rgb(0, 0, 0);
+
+}
+
+body {
+  margin: 0; /* Убираем стандартные отступы */
+  padding: 0;
+  height: 100vh; /* Высота на весь экран */
+  background: url('path-to-your-image.jpg') no-repeat center center fixed; /* Фоновое изображение */
+  background-size: cover; /* Фоновое изображение будет заполнять весь экран */
+}
+
+
+.texturedBackground2{
+  position: absolute;
+  top: 209vw;
+  width: 100%;
+}
+
+h55{
+  position: absolute;
+  left: 22vw;
+top: 122vw;
+  font-size: 3vw;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+   text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.85);
+   backdrop-filter: blur(10px);
+}
+
+
+.language-selection {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  padding: 0 2vw;
+  margin-top: 22vw;
+
+  flex-wrap: nowrap; /* запрет на перенос */
+  overflow-x: auto;  /* горизонтальная прокрутка на мобильных */
+  scroll-snap-type: x mandatory; /* плавная прокрутка по карточкам */
+}
+
+.language-card {
+  flex: 0 0 auto;
+  width: clamp(200px, 25vw, 300px); /* резиновая ширина */
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 8%;
+  overflow: hidden;
+  box-shadow: 0 1.5vw 2vw rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  scroll-snap-align: start;
+  text-align: center;
+}
+
+.language-card:hover {
+  transform: translateY(-7px);
+}
+
+.language-card img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+.language-card p {
+  margin: 7% 0;
+  font-size: 1.5vw;
+ 
+  font-weight: bold;
+  color: #222;
+}
+
+html {
+  font-size: 62.5%;
+}
+/* 📱 Адаптация под мобильные */
+@media (max-width: 768px) {
+  .language-card {
+    width: clamp(80px, 15vw, 120px); /* Уменьшаем ширину для планшетов */
+  }
+
+  .language-card p {
+    font-size: 1vw; /* Уменьшаем шрифт для планшетов */
+  }
+
+  .language-selection {
+    gap: 1vw; /* Уменьшаем gap для планшетов */
+  }
+}
+
+@media (max-width: 480px) {
+  .language-card {
+    width: 20%; /* Уменьшаем ширину для мобильных */  
+     margin-top: 28vw; /* Уменьшаем отступ сверху для мобильных */
+    flex-wrap: wrap; /* Разрешаем перенос карточек на новые строки */
+    justify-content: flex-start; /
+  }
+
+  .language-selection {
+    gap: 1vw; /* Уменьшаем gap для мобильных */
+    margin-top: 4vw; /* Уменьшаем отступ сверху */
+  }
+
+  .language-card p {
+    font-size: 2vw; /* Уменьшаем шрифт для мобильных */
+  }
+}
+
+
+
+
+
+h30{
+  position: absolute;
+  left: 26vw;
+  top: 170vw;
+  font-size: 3vw;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+
+
+.background3{
+  position: absolute;
+  top: 163vw;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  z-index: -1; 
+}
+
+
+.background-s{
+  position: absolute;
+  top: 225%;
+  width: 100%;
+  height: 100%;
+z-index: -1; 
+}
+
+.background7{
+  position: absolute;
+  top: 530%;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+h44{
+  position: absolute;
+  left: 8vw;
+  top: 395%;
+  font-size: 1vw;
+  color: rgb(255, 255, 255);
+}
+
+.background-Flags{
+  position: absolute;
+  top: 112vw;
+width: 100%;
+z-index: -1;
+position: absolute;
+left: 0%;
+ 
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: 60vh auto 0; /* Вверх на 10% высоты экрана */
+}
+
+.review-card {
+  background: white;
+  border-radius: 5%;
+  box-shadow: 0 1.5em 3em rgba(0, 0, 0, 0.08);
+  padding: 10%; /* Было 25px — увеличим немного */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.review-card:hover {
+  transform: translateY(-5px);
+box-shadow: 0 1.5em 3em rgba(0, 0, 0, 0.15);
+
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8%;
+}
+
+.flag {
+   font-size: 2vw; /* Размер шрифта будет 10% от размера шрифта родительского элемента */
+  margin-right: 5%;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.5vw;
+  color: #222;
+}
+
+.lang {
+  font-size: 0.9vw;
+  color: #666;
+}
+
+.review-text {
+  font-style: italic;
+  color: #444;
+  line-height: 1.5;
+  font-size: 1vw;
+}
+
+
+/* Основная структура grid с 4 колонками */
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 карточки в строке */
+  gap: 25px;
+  max-width: 1200px;
+  margin: 60vh auto 0; /* Вверх на 10% высоты экрана */
+}
+
+/* Оформление карточек */
+.review-card {
+  background: white;
+  border-radius: 5%;
+  box-shadow: 0 1.5em 3em rgba(0, 0, 0, 0.08);
+  padding: 10%; /* Увеличим немного */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1.5em 3em rgba(0, 0, 0, 0.15);
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8%;
+}
+
+.flag {
+  font-size: 2vw; /* Размер флага */
+  margin-right: 5%;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.5vw;
+  color: #222;
+}
+
+.lang {
+  font-size: 0.9vw;
+  color: #666;
+}
+
+.review-text {
+  font-style: italic;
+  color: #444;
+  line-height: 1.5;
+  font-size: 1vw;
+}
+
+/* 📱 Адаптация под мобильные */
+@media (max-width: 1200px) {
+  .reviews-grid {
+    grid-template-columns: repeat(4, 1fr); /* 4 карточки в строке */
+    margin-top: 15vw; /* Сдвигаем сетку вверх */
+  }
+
+  .review-card {
+    padding: 8%; /* Уменьшаем padding */
+  }
+
+  .flag {
+    font-size: 1.5vw;
+  }
+
+  .name {
+    font-size: 1.3vw;
+  }
+
+  .lang {
+    font-size: 1vw;
+  }
+
+  .review-text {
+    font-size: 0.9vw;
+  }
+}
+
+
+
