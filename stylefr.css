@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f9f9;
+    color: #333;
+}
+
+/* Заголовок */
+header {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Контейнер с контентом */
+.content {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    color: #000000;
+}
+
+.intro-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.lesson-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.lesson-list li {
+    background-color: #e0f2f1;
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.lesson-list li:hover {
+    background-color: #b2dfdb;
+}
+
+/* Кнопка */
+.start-btn {
+    background-color: #000000;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.start-btn:hover {
+    background-color: #000000;
+}

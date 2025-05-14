@@ -1,0 +1,1171 @@
+
+h1{
+    position: absolute;
+    top: 3vw;
+    left: 23%;
+    font-size: 3vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    }
+.flag{
+   position: absolute;
+    top: 6.7%;
+    left: 16%;
+    width: 5.5vw;
+}
+.flag1{
+   position: absolute;
+    top: 6.7%;
+    left: 79%;
+    width: 5.5vw;
+}
+
+    .intro-text{
+        position: absolute;
+        top: 10vw;
+        left: 10%;
+        font-size: 1.5vw;
+        }
+
+        h2{
+            position: absolute;
+            top: 16vw;
+            left: 10%;
+            font-size: 1.5vw;
+            font-family: "Montserrat", sans-serif;
+            font-weight: bold;
+        }
+        .text1{
+            position: absolute;
+            top: 20vw;
+            left: 10%;
+            font-size: 1.5vw;
+          
+        }
+
+.dialogcafe{
+   position: absolute;
+            left: 63%;
+              top: 513vw;
+              width: 30%;
+              transition: transform 0.3s ease;
+}
+
+.dialogcafe:hover {
+  transform: scale(1.07); /* Увеличение на 20% */
+}
+
+.dialogmenu{
+   position: absolute;
+            left: 62%;
+              top: 543vw;
+              width: 31%;
+               transition: transform 0.3s ease;
+}
+
+.dialogmenu:hover {
+  transform: scale(1.07); /* Увеличение на 20% */
+}
+
+
+.dialogodezhda{
+     position: absolute;
+            left: 61%;
+              top: 580vw;
+              width: 32%;
+              transition: transform 0.3s ease;
+}
+.dialogodezhda:hover {
+  transform: scale(1.07); /* Увеличение на 20% */
+}
+
+.dialogodezhda2{
+     position: absolute;
+            left: 63%;
+              top: 605vw;
+              width: 30%;
+              transition: transform 0.3s ease;
+}
+.dialogodezhda2:hover {
+  transform: scale(1.07); /* Увеличение на 20% */
+}
+
+
+.dialogprodukti{
+     position: absolute;
+            left: 61%;
+              top: 623vw;
+              width: 32%;
+              transition: transform 0.3s ease;
+}
+.dialogprodukti:hover {
+  transform: scale(1.07); /* Увеличение на 20% */
+}
+
+.dialogdoroga{
+     position: absolute;
+            left: 61%;
+              top: 653vw;
+              width: 32%;
+              transition: transform 0.3s ease;
+}
+.dialogdoroga:hover {
+  transform: scale(1.07); /* Увеличение на 20% */
+}
+
+
+.dialogvrema{
+     position: absolute;
+            left: 61%;
+              top: 678vw;
+              width: 32%;
+              transition: transform 0.3s ease;
+}
+
+.dialogvrema:hover {
+  transform: scale(1.07); /* Увеличение на 20% */
+}
+
+@media (max-width: 480px) {
+  .dialogcafe {
+    top: 850vw;
+    left: 65%;
+    width: 30%;
+  }
+
+  .dialogmenu {
+    top: 893vw;
+    left: 65%;
+    width: 30%;
+  }
+
+  .dialogodezhda {
+    top: 940vw;
+    left: 65%;
+    width: 30%;
+  }
+
+
+  .dialogprodukti {
+    top: 990vw;
+    left: 65%;
+    width: 30%;
+  }
+
+  .dialogdoroga {
+    top: 1037vw;
+    left: 65%;
+    width: 30%;
+  }
+
+  .dialogvrema {
+    top: 1070vw;
+    left: 65%;
+    width: 30%;
+  }
+
+  /* Общая адаптация при наведении */
+  .dialogcafe:hover,
+  .dialogmenu:hover,
+  .dialogodezhda:hover,
+  .dialogodezhda2:hover,
+  .dialogprodukti:hover,
+  .dialogdoroga:hover,
+  .dialogvrema:hover {
+    transform: scale(1.03); /* Уменьшаем увеличение, чтобы не вылазило за экран */
+  }
+}
+
+
+
+
+
+
+
+.znakomstvo3{
+      position: absolute;
+            top: 128vw;
+            left: 67%;
+width: 25%;
+}
+.znakomstvo4{
+      position: absolute;
+            top: 100vw;
+            left: 67%;
+width: 25%;
+}
+
+
+.tablitsa1{
+            position: absolute;
+            top: 26vw;
+            left: 10%;
+           width: 50%;
+         border: 0.4vw solid rgb(141, 184, 228);
+ 
+        }
+.franse1{
+            position: absolute;
+            top: 25vw;
+            left: 63%;
+           width: 30%;
+       
+        }
+        h3{
+            position: absolute;
+            top: 55vw;
+            left: 10%;
+            font-size: 1.5vw;
+            font-family: "Montserrat", sans-serif;
+            font-weight: bold;
+        }
+
+    h4{
+        position: absolute;
+            top: 59vw;
+            left: 10%;
+            font-size: 1.5vw;
+            font-weight: lighter;
+    }
+
+    h5{
+        position: absolute;
+            top: 83vw;
+            left: 20%;
+            font-size: 3vw;
+            font-family: "Montserrat", sans-serif;
+            font-weight: bold;
+    }
+
+    .text2{
+        position: absolute;
+        top: 185%;
+        left: 10%;
+        font-size: 1.5vw;
+       
+    }
+
+    .highlight {
+        color: black;
+        font-weight: bold;
+      }
+
+      h6{
+        position: absolute;
+        top: 97vw;
+        left: 10%;
+        font-size: 1.5vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold; 
+      }
+
+      h7{
+        position: absolute;
+        top: 95vw;
+        left: 10%;
+        font-size: 1.5vw;
+      }
+
+      h8{
+        position: absolute;
+        top: 104vw;
+        left: 10%;
+        font-size: 1.5vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+          color: red;
+      }
+      
+      h9{
+        position: absolute;
+        top: 107vw;
+        left: 10%;
+        font-size: 1.5vw;
+      }
+
+      h10{
+        position: absolute;
+        top: 112vw;
+        left: 10%;
+        font-size: 1.5vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+          color: red;
+      }
+      
+      h11{
+        position: absolute;
+        top: 115vw;
+        left: 10%;
+        font-size: 1.5vw;
+      }
+      
+      h12{
+        position: absolute;
+        top: 123vw;
+        left: 10%;
+        font-size: 1.5vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+  
+      }
+
+      h13{
+        position: absolute;
+        top: 126.5vw;
+        left: 10%;
+        font-size: 1.5vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+          color: red;
+      }
+
+      h14{
+        position: absolute;
+        top: 129.5vw;
+        left: 10%;
+        font-size: 1.5vw;
+      }
+
+      h15{
+        position: absolute;
+        top: 135vw;
+        left: 10%;
+        font-size: 1.5vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+          color: red;
+      }
+
+      h16{
+        position: absolute;
+        top: 138vw;
+        left: 10%;
+        font-size: 1.5vw;
+      }
+
+      h17{
+        position: absolute;
+        top: 146vw;
+        left: 10%;
+        font-size: 1.5vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        
+      }
+      
+      h18{
+        position: absolute;
+        top: 149.5vw;
+        left: 10%;
+        font-size: 1.5vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+    color: red;
+      }
+
+      h19{
+        position: absolute;
+        top: 152.7vw;
+        left: 10%;
+        font-size: 1.5vw;
+      }
+
+          
+      h20{
+        position: absolute;
+        top: 156vw;
+        left: 10%;
+        font-size: 1.5vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+          color: red;
+      }
+
+      h21{
+        position: absolute;
+        top: 159vw;
+        left: 10%;
+        font-size: 1.5vw;
+      }
+      h22{
+        position: absolute;
+        top: 162.5vw;
+        left: 10%;
+        font-size: 1.5vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+          color: red;
+      }
+      h23{
+        position: absolute;
+        top: 165.5vw;
+        left: 10%;
+        font-size: 1.5vw;
+      }
+
+      
+h24{
+    position: absolute;
+    top: 173vw;
+    left: 23%;
+    font-size: 3vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    }
+    h25{
+        position: absolute;
+        top: 180vw;
+        left: 10%;
+        font-size: 1.5vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+      }
+
+      h26{
+        position: absolute;
+        top: 183.5vw;
+        left: 10%;
+        font-size: 1.5vw;
+      }
+
+      h27{
+        position: absolute;
+        top: 189vw;
+        left: 9%;
+        font-size: 1.5vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+      }
+      h28{
+        position: absolute;
+        top: 193vw;
+        left: 10%;
+        font-size: 1.5vw;
+      }
+      .tablitsa3{
+        position: absolute;
+        top: 198vw;
+        right: 8%;
+       width: 30%;
+   border: 0.4vw solid rgb(141, 184, 228);
+    }
+    
+    h29{
+      position: absolute;
+      top: 225vw;
+      left: 9%;
+      font-size: 1.5vw;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+    }
+
+    h30{
+      position: absolute;
+      top: 229vw;
+      left: 10%;
+      font-size: 1.5vw;
+    }
+
+    .tablitsa4{
+      position: absolute;
+      top: 234vw;
+      left: 10%;
+     width: 50%;
+       border: 0.4vw solid rgb(141, 184, 228);
+  }
+
+  h31{
+    position: absolute;
+    top: 255vw;
+    left: 9%;
+    font-size: 1.5vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+  }
+
+  h32{
+    position: absolute;
+    top: 259vw;
+    left: 10%;
+    font-size: 1.5vw;
+  }
+
+  .tablitsa5{
+    position: absolute;
+    top: 265vw;
+    right: 10%;
+   width: 50%;
+   border: 0.4vw solid rgb(141, 184, 228);
+}
+.odnoklas{
+   position: absolute;
+    top: 198vw;
+    left: 10%;
+   width: 40%;
+}
+.knigi1{
+   position: absolute;
+    top: 265vw;
+    left: 10%;
+   width: 22%;
+}
+
+
+h33{
+  position: absolute;
+  top: 289vw;
+  left: 27%;
+  font-size: 3vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+h34{
+  position: absolute;
+  top: 296vw;
+  left: 10%;
+  font-size: 1.5vw;
+}
+h35{
+  position: absolute;
+  top: 340vw;
+  left: 36%;
+  font-size: 3vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5dc; ;
+  margin: 0;
+  padding: 20px;
+}
+
+.task-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 500px;
+  margin: auto;
+  top: 349vw;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.task {
+  margin-bottom: 20px;
+}
+
+.task p {
+  font-size: 16px;
+  color: #333;
+}
+
+.hint {
+  font-size: 14px;
+  color: #888;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1e1d1d;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+#result2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+@media (max-width: 480px) {
+  .task-container {
+    width: 50vw;
+    padding: 5px;
+    top: 367vw;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+  }
+
+  .task-container * {
+    font-size: 2.5vw !important; /* Принудительно уменьшить шрифт */
+  }
+
+  input[type="text"] {
+    padding: 1.6vw !important;
+  }
+
+  button {
+    padding: 2vw !important;
+  }
+}
+
+
+
+
+
+
+
+
+h36{
+  position: absolute;
+  top: 427vw;
+  left: 27%;
+  font-size: 3vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold; 
+
+}
+
+h37{
+  position: absolute;
+  top: 435vw;
+  left: 10%;
+  font-size: 1.5vw;
+}
+h38{
+  position: absolute;
+  top: 441vw;
+  left: 10%;
+  font-size: 1.5vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+h39{
+  position: absolute;
+  top: 444vw;
+  left: 10%;
+  font-size: 1.5vw;
+}
+
+@media (max-width: 480px) {
+  h36 {
+    top: 615vw;
+    left: 15%;
+    font-size: 4vw;
+    text-align: center;
+  }
+  h35 {
+    top: 353vw;
+    left: 30%;
+    font-size: 4vw;
+    text-align: center;
+  }
+  h37,
+  h38,
+  h39 {
+    left: 10%;
+    font-size: 1.5vw;
+  }
+
+  h37 {
+    top: 625vw;
+  }
+
+  h38 {
+    top: 633vw;
+  }
+
+  h39 {
+    top: 637vw;
+  }
+}
+
+
+
+
+
+
+.game-container5 { /* вместо .game-container1 */
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  max-width: 600px;
+  margin: 40px auto;
+  transition: all 0.3s ease;
+  position: absolute;
+  left: 30%;
+  top: 920%;
+}
+
+.question5 {
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.option5 {
+  background-color: #f8f9fa;
+  border: 2px solid #e0e0e0;
+  padding: 14px 18px;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.option5:hover {
+  background-color: #e2e6ea;
+  border-color: #cdd6dd;
+}
+
+.correct5 {
+  background-color: #4caf50 !important;
+  color: white !important;
+  border-color: #4caf50 !important;
+}
+
+.incorrect5 {
+  background-color: #f44336 !important;
+  color: white !important;
+  border-color: #f44336 !important;
+}
+
+.result5 {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 25px;
+  color: #2c3e50;
+}
+
+.next-button5 {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  background-color: #272727;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.next-button5:hover {
+  background-color: #000000;
+}
+
+.final-result5 {
+  background-color: #eafaf1;
+  border: 2px solid #4caf50;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 30px;
+  color: #2e7d32;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.score-line5 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.motivation5 {
+  font-style: italic;
+  margin-top: 10px;
+  color: #388e3c;
+  margin-top: 20px;
+}
+
+.next-button1 {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #2a75bb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.next-button1:hover {
+  background-color: #1e5da0;
+}
+@media (max-width: 480px) {
+  .game-container5 {
+    position: relative; /* Чтобы вы могли задать top/left */
+    top: 660vw; 
+    left:-1vw;          /* Можете изменить по желанию */
+    width: 50vw;
+    padding: 5px;
+    margin: 0 auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .question5,
+  .option5,
+  .next-button5,
+  .result5,
+  .final-result5,
+  .score-line5,
+  .motivation5 {
+    font-size: 2.5vw;
+  }
+
+  .option5,
+  .next-button5 {
+    padding: 1.5vw;
+  }
+}
+
+
+
+h40{
+  position: absolute;
+  top: 503vw;
+  left: 34%;
+  font-size: 3vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold; 
+  animation: pulseMove 3s ease-in-out infinite;
+}
+h41{
+  position: absolute;
+  top: 509vw;
+  left: 10%;
+  font-size: 1.5vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold; 
+}
+h42{
+  position: absolute;
+  top: 513vw;
+  left: 10%;
+  font-size: 1.5vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold; 
+ 
+}
+h43{
+  position: absolute;
+  top: 516vw;
+  left: 10%;
+  font-size: 1.5vw;
+
+ 
+}
+.highlight {
+    background-color: rgb(141, 184, 228);  /* Ярко-желтый фон, имитирующий маркер */
+    padding: 0 4px;  /* Немного отступов, чтобы выделенный текст выглядел как с маркером */
+    border-radius: 4px;  /* Опционально: скругление углов для более мягкого вида */
+  }
+
+
+
+h44{
+  position: absolute;
+  top: 539vw;
+  left: 10%;
+  font-size: 1.5vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold; 
+
+}
+h45{
+  position: absolute;
+  top: 542vw;
+  left: 10%;
+  font-size: 1.5vw;
+
+  border-radius: 10px;
+  padding: 10px;
+}
+h46{
+  position: absolute;
+  top: 571vw;
+  left: 10%;
+  font-size: 1.5vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold; 
+
+}
+
+h48{
+  position: absolute;
+  top: 575vw;
+  left: 10%;
+  font-size: 1.5vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+h49{
+  position: absolute;
+  top: 578vw;
+  left: 10%;
+  font-size: 1.5vw;
+ 
+  border-radius: 10px;
+  padding: 10px;
+}
+
+h50{
+  position: absolute;
+  top: 613vw;
+  left: 10%;
+  font-size: 1.5vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold; 
+
+}
+
+h51{
+  position: absolute;
+  top: 616vw;
+  left: 10%;
+  font-size: 1.5vw;
+
+  border-radius: 10px;
+  padding: 10px;
+}
+
+h52{
+  position: absolute;
+  top: 650vw;
+  left: 10%;
+  font-size: 1.5vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold; 
+
+}
+
+h53{
+  position: absolute;
+  top: 654vw;
+  left: 10%;
+  font-size: 1.5vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold; 
+}
+
+h54{
+  position: absolute;
+  top: 657vw;
+  left: 10%;
+  font-size: 1.5vw;
+
+  border-radius: 10px;
+  padding: 10px;
+}
+h55{
+  position: absolute;
+  top: 680vw;
+  left: 10%;
+  font-size: 1.5vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold; 
+}
+h56{
+  position: absolute;
+  top:683vw;
+  left: 10%;
+  font-size: 1.5vw;
+
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@media (max-width: 480px) {
+  h40 {
+    top: 825vw;
+    left: 25%;
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  h41, h42, h43,
+  h44, h46, h48,
+  h50, h52, h53,
+  h55 {
+    font-size: 1.5vw;
+    left: 10%;
+  }
+
+  h41 { top: 833vw; }
+  h42 { top: 839vw; }
+  h43 { top: 845vw; }
+
+  h44 { top: 875vw; }
+
+  h46 { top: 920vw; }
+  h48 { top: 925vw; }
+  h50 { top: 975vw; }
+  h52 { top: 1025vw; }
+  h53 { top: 1030vw; }
+  h55 { top: 1065vw; }
+
+  h45, h49, h51, h54, h56 {
+    font-size: 1.5vw;
+    left: 7%;
+    padding: 6px;
+    border-radius: 8px;
+  }
+
+  h45 { top: 880vw; }
+  h49 { top: 930vw; }
+  h51 { top: 980vw; }
+  h54 { top: 1035vw; }
+  h56 { top: 1070vw; }
+}
+
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+}
+
+.game-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  max-width: 600px;
+  margin: auto;
+  position: absolute;
+  top: 722vw;
+  left: 31%;
+}
+
+.card {
+  background-color: #e0f7fa;
+  border: 2px solid #00acc1;
+  border-radius: 10px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  user-select: none;
+}
+
+.card.flipped,
+.card.matched {
+  background-color: #4caf50;
+  color: white;
+  cursor: default;
+}
+
+#message {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #388e3c;
+  top: 745vw;
+  left: 35%;
+  position: absolute;
+}
+
+@media (max-width: 480px) {
+  .game-container {
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr)); /* было 36px */
+    gap: 1.7px; /* было 1.5px */
+    max-width: 170px; /* было 150px */
+    position: absolute;
+    left: 28%; /* немного сместили влево */
+    top: 1050vw; /* немного выше */
+  }
+
+  .card {
+    height: 27px;         /* было 24px */
+    font-size: 3.8px;     /* было 3.3px */
+    border-radius: 3.2px; /* было 3px */
+    border-width: 0.7px;  /* было 0.6px */
+  }
+
+  #message {
+    font-size: 5px;       /* было 4.5px */
+    position: absolute;
+    top: 1190vw;          /* было 1250vw */
+    left: 32%;            /* немного ближе к центру */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+h57{
+  position: absolute;
+  top: 708vw;
+  left: 25%;
+  font-size: 3vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold; 
+}
+h58{
+  position: absolute;
+  top: 715vw;
+  left: 25%;
+  font-size: 1.5vw;
+
+}
+
+
+
+@media (max-width: 480px) {
+  h57 {
+    top: 1098vw;
+    left: 17%;
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  h58 {
+    top: 1106vw;
+    left: 25%;
+    font-size: 1.5vw;
+  }
+}
